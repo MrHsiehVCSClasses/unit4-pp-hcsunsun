@@ -42,7 +42,7 @@ public class RockPaperScissorsTests {
                 RockPaperScissors.play(sc);
             });
             String[] tokens = output.split("\n");
-            assertEquals(10, tokens.length);
+            assertEquals(14, tokens.length);
         });
     }
 
